@@ -121,14 +121,16 @@ button {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-button {
+button,
+[type=button] {
   -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner {
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -136,7 +138,8 @@ button::-moz-focus-inner {
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring {
+button:-moz-focusring,
+[type=button]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -222,7 +225,7 @@ button:-moz-focusring {
 }
 
 .advise-container {
-  width: clamp(30%, 500px, 80%);
+  width: clamp(30%, 300px, 80%);
   background-color: hsl(217deg, 19%, 38%);
   padding: 15px 35px;
   border-radius: 10px;
