@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 <!-- <image s>./screen-shots/mopile%20screen.png) -->
-<img src="./screen-shots/mopile.png" alt="" />
+<img src="./screen-shots/mopile.png" width='50%' alt="" />
 
 ### Links
 
