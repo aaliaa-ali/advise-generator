@@ -23,8 +23,8 @@ Users should be able to:
 
 
 ### Screenshot
-
-![](./screen-shots/mopile%20screen.png)
+<!-- <image s>./screen-shots/mopile%20screen.png) -->
+<img src="./screen-shots/mopile%20screen.png" alt="" />
 
 ### Links
 
